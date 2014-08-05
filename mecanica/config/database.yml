@@ -49,6 +49,8 @@ test:
 #
 production:
   <<: *default
-  database: mecanica_production
-  username: mecanica
+#  database: mecanica_production
+  database: web
+#  username: mecanica
+  username: admin8P93cCb
   password: <%= ENV['MECANICA_DATABASE_PASSWORD'] %>
